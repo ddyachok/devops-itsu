@@ -1,0 +1,11 @@
+[Unit]
+Description=Script
+After=network.target
+
+[Service]
+ExecStart=/vagrant/script.sh
+Restart=on-failure
+User=vagrant
+
+[Install]
+WantedBy=multi-user.target
