@@ -17,7 +17,7 @@ Vagrant.configure("2") do |config|
   inline: "sudo yum update -y;"
 
   proxy.vm.provider "virtualbox" do |vb|
-    vb.memory = 512
+    vb.memory = 2048
     vb.cpus = 1
   end
 end
