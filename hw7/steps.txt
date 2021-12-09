@@ -1,0 +1,5 @@
+ssh -p 3322 root@yoko.ukrtux.com
+
+ssh -R 10022:localhost:22 -p 3322 root@yoko.ukrtux.com
+
+ssh -p 10022 danieldyachok@localhost
